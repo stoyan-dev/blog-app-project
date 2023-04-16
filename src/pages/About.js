@@ -5,7 +5,7 @@ const About = () => {
 		<div className="container padding">
 			<div className="col-md-12">
 				<div className="row mx-0">
-					<h1>About Us</h1>
+					<h1>About Us ㋡</h1>
 					<p>
 						Contrary to popular belief, Lorem Ipsum is not simply
 						random text. It has roots in a piece of classical Latin

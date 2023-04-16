@@ -68,7 +68,7 @@ const Auth = ({ setActive, setUser }) => {
 			<div className="container">
 				<div className="col-12 text-center">
 					<div className="text-center heading py-2">
-						{!signUp ? "Sign-In" : "Sign-Up"}
+						{!signUp ? "Sign-In ☑" : "Sign-Up ☐"}
 					</div>
 				</div>
 				<div className="row h-100 justify-content-center align-items-center">
@@ -134,11 +134,13 @@ const Auth = ({ setActive, setUser }) => {
 							<div className="col-12 py-3 text-center">
 								<button
 									className={`btn ${
-										!signUp ? "btn-sign-in" : "btn-sign-up"
+										!signUp
+											? "btn-sign-in "
+											: "btn-sign-up "
 									}`}
 									type="submit"
 								>
-									{!signUp ? "Sign-in" : "Sign-up"}
+									{!signUp ? "Sign-in " : "Sign-up "}
 								</button>
 							</div>
 						</form>
@@ -156,7 +158,7 @@ const Auth = ({ setActive, setUser }) => {
 												}}
 												onClick={() => setSignUp(true)}
 											>
-												Sign Up
+												Sign Up ☐
 											</span>
 										</p>
 									</div>
@@ -175,7 +177,7 @@ const Auth = ({ setActive, setUser }) => {
 												}}
 												onClick={() => setSignUp(false)}
 											>
-												Sign Up
+												Sign In ☑
 											</span>
 										</p>
 									</div>

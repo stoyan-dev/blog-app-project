@@ -35,7 +35,7 @@ function Header({ active, setActive, user, handleLogout }) {
 										}`}
 										onClick={() => setActive("home")}
 									>
-										Home
+										☰ Home
 									</li>
 								</Link>
 								{/* Create */}
@@ -49,7 +49,7 @@ function Header({ active, setActive, user, handleLogout }) {
 										}`}
 										onClick={() => setActive("create")}
 									>
-										Create
+										〄 Create Blog
 									</li>
 								</Link>
 								{/* About */}
@@ -96,7 +96,7 @@ function Header({ active, setActive, user, handleLogout }) {
 											className="nav-item nav-link"
 											onClick={handleLogout}
 										>
-											Logout
+											⟳ Logout
 										</li>
 									</>
 								) : (
@@ -112,7 +112,7 @@ function Header({ active, setActive, user, handleLogout }) {
 											}`}
 											onClick={() => setActive("login")}
 										>
-											Login
+											➤ Login
 										</li>
 									</Link>
 								)}
