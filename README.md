@@ -2,6 +2,7 @@
 
 https://gentle-meerkat-2eec0c.netlify.app
 
+![Screenshot_4](https://github.com/SoulSnatcher187/blog-app-project/assets/116718287/8e189d72-559d-4211-b06b-98d958693dec)
 
 # Getting Started with Create React App
 
